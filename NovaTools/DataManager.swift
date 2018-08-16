@@ -18,12 +18,56 @@ class DataManager {
         config.allowsCellularAccess = true;
         config.httpAdditionalHeaders = ["Content-Type": "application/json"]
         config.timeoutIntervalForRequest = 30.0
-        config.httpMaximumConnectionsPerHost = 5
+        config.httpMaximumConnectionsPerHost = 10
         
         return config
     }()
     
     private static let session = URLSession(configuration: configuration)
+    
+    class func loadPedidoPeca(peca: String, onComplete: @escaping ([PedidosModel]) -> Void, onError: @escaping (Bool) -> Void){
+        
+        guard let url = URL(string: basePath + "pedidos/\(peca)") else {return}
+        
+        //No get nao precisa de objeto de request.... padrao GET
+        let dataTask = session.dataTask(with: url) { (data: Data?, response: URLResponse?, error: Error?) in
+            if error == nil
+            {
+                guard let response = response as? HTTPURLResponse else {return}
+                
+                if response.statusCode == 200
+                {
+                    
+                    guard let data = data else {return}
+                    //print(data)
+                    do {
+                        
+                        let pedidos = try JSONDecoder().decode([PedidosModel].self, from: data)
+                        onComplete(pedidos)
+                   
+                    }
+                    catch
+                    {
+                        onError(true)
+                        print(error.localizedDescription)
+                    }
+                }
+                else
+                {
+                    onError(true)
+                }
+                
+            }
+            else
+            {
+                onError(true)
+                print(error!)
+            }
+            
+        }
+        //Executa
+        dataTask.resume()
+    }
     
     class func loadPecaComplete(peca: String, onComplete: @escaping (Peca) -> Void, onError: @escaping (Bool) -> Void){
         
@@ -107,4 +151,6 @@ class DataManager {
         //Executa
         dataTask.resume()
     }
+    
+    
 }
