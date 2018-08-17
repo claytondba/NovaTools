@@ -10,11 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
     @IBOutlet weak var txtPeca: UITextField!
     //var PecaUser: string
-    @IBAction func consultarPeca(_ sender: Any) {
-        
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,9 +26,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vw = segue.destination as! PecasTableViewController
-        vw.Prefix = txtPeca.text!
+        
+        if segue.identifier! == "consulta" {
+            //let vw = segue.destination as! PecasTableViewController
+            //vw.Prefix = txtPeca.text!
+        }
+        else if segue.identifier == "result" {
+            let vw = segue.destination as! PecasTableViewController
+            vw.Prefix = txtPeca.text!
+        }
+        
     }
+
 
 }
 

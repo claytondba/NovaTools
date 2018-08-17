@@ -61,12 +61,15 @@ class PecasDetalheViewController: UIViewController {
             espLabel.text = "Sem descrição em espanhol..."
         }
         
-        if let aplic = PecaEdit.esptec {
+        if let aplic = self.PecaEdit.esptec {
             aplicaLabel.text = aplic
         }
-        else{
-            espLabel.text = "Sem descrição em espanhol..."
+        else
+        {
+            aplicaLabel.text = "Sem aplicação cadastrada..."
         }
+        
+
         
         if let estoque = PecaEdit.estoque_l {
             estoqueLabel.text = "\(Int(estoque))"
@@ -84,6 +87,7 @@ class PecasDetalheViewController: UIViewController {
                 self.ivPeca.image = image
                 self.acPeca.stopAnimating()
                 self.acPeca.isHidden = true
+                
                 
                 
             }

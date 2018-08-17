@@ -11,6 +11,7 @@ import UIKit
 class PedidosInfoViewController: UIViewController {
     
 
+    @IBOutlet weak var pecaLabel: UILabel!
     @IBOutlet weak var tableview: UITableView!
     
     var PedidosLista: [PedidosModel] = []
@@ -18,6 +19,13 @@ class PedidosInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let paralelo = PecaEdit!.paralelo {
+            pecaLabel.text = "MIC \(PecaEdit!.codigo_p!) \(paralelo)"
+        }
+        else
+        {
+            pecaLabel.text = "MIC \(PecaEdit!.codigo_p!)"
+        }
         LoadPedidos()
         // Do any additional setup after loading the view.
     }
@@ -42,6 +50,7 @@ class PedidosInfoViewController: UIViewController {
     @IBAction func fechar(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    
 }
 
 extension PedidosInfoViewController: UITableViewDataSource {
@@ -52,16 +61,17 @@ extension PedidosInfoViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) //as! PecasTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PedidosInfoTableViewCell
         let p = PedidosLista[indexPath.row]
         
-        cell.textLabel?.text = "Pedido: \(p.cota!) Nota: \(p.nota!)"
-        cell.detailTextLabel?.text = "Cliente: \(p.fantasia!)"
+        cell.PreapareCell(pedido: p)
         
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "RESUMO VENDAS"
+    }
     
 }
 extension PedidosInfoViewController: UITableViewDelegate{

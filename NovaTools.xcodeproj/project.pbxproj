@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1FA6042125DDEF009452EC /* PedidosInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FA6032125DDEF009452EC /* PedidosInfoTableViewCell.swift */; };
 		8F2F4AD7211CC0900042B4F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F4AD6211CC0900042B4F0 /* AppDelegate.swift */; };
 		8F2F4AD9211CC0900042B4F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F4AD8211CC0900042B4F0 /* ViewController.swift */; };
 		8F2F4ADC211CC0900042B4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F4ADA211CC0900042B4F0 /* Main.storyboard */; };
@@ -17,11 +18,15 @@
 		8F81B24821227AD6004391CA /* PecasDetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81B24721227AD6004391CA /* PecasDetalheViewController.swift */; };
 		8F81B24C212597AF004391CA /* PedidosInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81B24B212597AF004391CA /* PedidosInfoViewController.swift */; };
 		8F81B24E2125AAD6004391CA /* PedidosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81B24D2125AAD6004391CA /* PedidosModel.swift */; };
+		8F8ECD3F2127428F00063BE6 /* ComprasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8ECD3E2127428F00063BE6 /* ComprasTableViewCell.swift */; };
 		8F982A5F211E30F500DF9BB2 /* PecasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F982A5E211E30F500DF9BB2 /* PecasModel.swift */; };
 		8F982A61211E324D00DF9BB2 /* PecasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F982A60211E324D00DF9BB2 /* PecasTableViewController.swift */; };
+		8F98A77C212736AD00E97D45 /* ComprasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98A77B212736AD00E97D45 /* ComprasTableViewController.swift */; };
+		8F98A77E2127376400E97D45 /* ComprasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98A77D2127376400E97D45 /* ComprasModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F1FA6032125DDEF009452EC /* PedidosInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosInfoTableViewCell.swift; sourceTree = "<group>"; };
 		8F2F4AD3211CC0900042B4F0 /* NovaTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2F4AD6211CC0900042B4F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F2F4AD8211CC0900042B4F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,8 +39,11 @@
 		8F81B24721227AD6004391CA /* PecasDetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecasDetalheViewController.swift; sourceTree = "<group>"; };
 		8F81B24B212597AF004391CA /* PedidosInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosInfoViewController.swift; sourceTree = "<group>"; };
 		8F81B24D2125AAD6004391CA /* PedidosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosModel.swift; sourceTree = "<group>"; };
+		8F8ECD3E2127428F00063BE6 /* ComprasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasTableViewCell.swift; sourceTree = "<group>"; };
 		8F982A5E211E30F500DF9BB2 /* PecasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecasModel.swift; sourceTree = "<group>"; };
 		8F982A60211E324D00DF9BB2 /* PecasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecasTableViewController.swift; sourceTree = "<group>"; };
+		8F98A77B212736AD00E97D45 /* ComprasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasTableViewController.swift; sourceTree = "<group>"; };
+		8F98A77D2127376400E97D45 /* ComprasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,10 @@
 				8F2F4AD6211CC0900042B4F0 /* AppDelegate.swift */,
 				8F2F4AD8211CC0900042B4F0 /* ViewController.swift */,
 				8F2F4ADA211CC0900042B4F0 /* Main.storyboard */,
+				8F98A77B212736AD00E97D45 /* ComprasTableViewController.swift */,
+				8F8ECD3E2127428F00063BE6 /* ComprasTableViewCell.swift */,
+				8F98A77D2127376400E97D45 /* ComprasModel.swift */,
+				8F1FA6032125DDEF009452EC /* PedidosInfoTableViewCell.swift */,
 				8F81B24D2125AAD6004391CA /* PedidosModel.swift */,
 				8F81B24B212597AF004391CA /* PedidosInfoViewController.swift */,
 				8F81B24721227AD6004391CA /* PecasDetalheViewController.swift */,
@@ -156,12 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F98A77C212736AD00E97D45 /* ComprasTableViewController.swift in Sources */,
 				8F81B24E2125AAD6004391CA /* PedidosModel.swift in Sources */,
 				8F81B246212232C6004391CA /* PecasTableViewCell.swift in Sources */,
 				8F982A5F211E30F500DF9BB2 /* PecasModel.swift in Sources */,
 				8F2F4AD9211CC0900042B4F0 /* ViewController.swift in Sources */,
 				8F2F4AE9211DCBDF0042B4F0 /* DataManager.swift in Sources */,
+				8F8ECD3F2127428F00063BE6 /* ComprasTableViewCell.swift in Sources */,
 				8F982A61211E324D00DF9BB2 /* PecasTableViewController.swift in Sources */,
+				8F98A77E2127376400E97D45 /* ComprasModel.swift in Sources */,
+				8F1FA6042125DDEF009452EC /* PedidosInfoTableViewCell.swift in Sources */,
 				8F81B24C212597AF004391CA /* PedidosInfoViewController.swift in Sources */,
 				8F81B24821227AD6004391CA /* PecasDetalheViewController.swift in Sources */,
 				8F2F4AD7211CC0900042B4F0 /* AppDelegate.swift in Sources */,
