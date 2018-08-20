@@ -17,6 +17,7 @@ class ComprasTableViewCell: UITableViewCell {
     @IBOutlet weak var condicaoLabel: UILabel!
     @IBOutlet weak var compradorLabel: UILabel!
     @IBOutlet weak var valorLabel: UILabel!
+    @IBOutlet weak var tipoCompraLabel: UILabel!
     
     
     
@@ -28,6 +29,19 @@ class ComprasTableViewCell: UITableViewCell {
         condicaoLabel.text = "Condição: \(compra.desc_pgto!)"
         compradorLabel.text = "Comprador: \(compra.comprador!)"
         valorLabel.text = "Valor: \(compra.valor!)"
+        
+        if let tp = compra.tipo {
+            
+            switch tp {
+            case "o":
+                tipoCompraLabel.text = "Outros Produtos"
+            case "m":
+                tipoCompraLabel.text = "Matéria - Prima"
+            default:
+                tipoCompraLabel.text = "Peças"
+            }
+            
+        }
         
     }
     override func awakeFromNib() {

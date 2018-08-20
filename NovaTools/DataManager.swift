@@ -25,6 +25,40 @@ class DataManager {
     
     private static let session = URLSession(configuration: configuration)
     
+    class func aprovaPedido(pedido: CompraModel, onComplete: @escaping (Bool) -> Void) {
+        guard let url = URL(string: basePath + "compras/aprovacao") else {
+            onComplete(false)
+            return
+        }
+        
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        
+        guard let json = try? JSONEncoder().encode(pedido) else {
+            return
+        }
+        
+        request.httpBody = json
+        
+        let dataTask = session.dataTask(with: request) { (data, response, error) in
+            if error == nil {
+                
+                guard let response = response as? HTTPURLResponse, response.statusCode == 200, let _ = data else {
+                    onComplete(false)
+                    return
+                }
+                
+                onComplete(true)
+                
+            } else {
+                onComplete(false)
+                return
+            }
+        }
+        
+        dataTask.resume()
+    }
+    
     class func loadCompras(onComplete: @escaping ([CompraModel]) -> Void, onError: @escaping (Bool) -> Void){
         
         guard let url = URL(string: basePath + "compras/") else {return}

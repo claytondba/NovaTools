@@ -20,7 +20,7 @@ class PedidosInfoTableViewCell: UITableViewCell {
     
     func PreapareCell(pedido: PedidosModel){
         
-        clienteLabel.text = "Cliente: \(pedido.fantasia!)"
+        clienteLabel.text = "\(pedido.fantasia!)"
         nflabel.text = "NF: \(pedido.nota!)"
         dataLabel.text = "Data: \(pedido.data_e!)"
         valorLabel.text = "Valor: \(pedido.valor!)"

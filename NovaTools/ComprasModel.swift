@@ -17,5 +17,7 @@ public class CompraModel: Codable {
     var desc_pgto: String?
     var comprador: String?
     var obs_aprov: String?
+    var tipo: String?
+    var opr: String?
     
 }
