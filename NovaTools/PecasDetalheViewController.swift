@@ -11,6 +11,8 @@ import UIKit
 class PecasDetalheViewController: UIViewController {
 
     
+    @IBOutlet weak var originalLabel: UILabel!
+    @IBOutlet weak var localLabel: UILabel!
     @IBOutlet weak var ivPeca: UIImageView!
     @IBOutlet weak var portuguesLabel: UILabel!
     @IBOutlet weak var inglesLabel: UILabel!
@@ -27,10 +29,20 @@ class PecasDetalheViewController: UIViewController {
         let vc = segue.destination as! PedidosInfoViewController
         vc.PecaEdit = self.PecaEdit
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(false, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         acPeca.startAnimating()
+        
+        if let local = PecaEdit.local {
+            localLabel.text = local
+        }
+        
+        if let original = PecaEdit.use {
+            originalLabel.text = original
+        }
         
         if let paralelo = PecaEdit.paralelo {
             self.title = "MIC \(PecaEdit.codigo_p!) \(paralelo)"

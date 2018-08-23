@@ -30,7 +30,7 @@ class ComprasTableViewController: UITableViewController {
 
     func LoadCompras(){
         
-        DataManager.loadCompras(onComplete: { (compras) in
+        DataManager.loadCompras(token:Configuration.shared.TokenAPI, onComplete: { (compras) in
             self.ListaCompras = compras
             DispatchQueue.main.async {
                 self.tableView.reloadData()
@@ -113,7 +113,7 @@ class ComprasTableViewController: UITableViewController {
             let comp = self.ListaCompras[index.row]
             comp.opr = "n"
             
-            DataManager.aprovaPedido(pedido: comp, onComplete: { (result) in
+            DataManager.aprovaPedido(token: Configuration.shared.TokenAPI, pedido: comp, onComplete: { (result) in
                 if result {
                     self.ListaCompras.remove(at: index.row)
                     
@@ -135,7 +135,7 @@ class ComprasTableViewController: UITableViewController {
             let comp = self.ListaCompras[index.row]
             comp.opr = "s"
             
-            DataManager.aprovaPedido(pedido: comp, onComplete: { (result) in
+            DataManager.aprovaPedido(token: Configuration.shared.TokenAPI, pedido: comp, onComplete: { (result) in
                 if result {
                     self.ListaCompras.remove(at: index.row)
                     

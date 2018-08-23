@@ -12,6 +12,7 @@ class PecasTableViewController: UITableViewController {
 
     var ListaPecas: [Peca] = []
     var Prefix: String = ""
+    var label = UILabel()
     
     /// View which contains the loading text and the spinner
     let loadingView = UIView()
@@ -24,7 +25,8 @@ class PecasTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        label.text = "Nenhum resultado encontrado!"
+        label.textAlignment = .center
         setLoadingScreen()
         LoadPecas()
 
@@ -41,6 +43,14 @@ class PecasTableViewController: UITableViewController {
             DispatchQueue.main.async {
                 self.tableView.reloadData()
                 self.removeLoadingScreen()
+
+                if self.ListaPecas.count == 0 {
+                    self.tableView.backgroundView = self.label
+                }
+                else{
+                    self.tableView.backgroundView = nil
+                }
+                
             }
             
         }
@@ -56,15 +66,10 @@ class PecasTableViewController: UITableViewController {
         
     }
 
-    // MARK: - Table view data source
-/*
-    override func numberOfSections(in tableView: UITableView) -> Int {
-       
-        return 1
-    }
-*/
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        
+        
         return ListaPecas.count
     }
 

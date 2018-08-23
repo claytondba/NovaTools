@@ -10,7 +10,6 @@ import Foundation
 
 struct Peca: Codable {
     
-    var sr_recno: Int64?
     var codigo: String?
     var codigo_p: String?
     var paralelo: String?
@@ -23,18 +22,5 @@ struct Peca: Codable {
     var use: String?
     var esptec: String?
     var image: String?
-    var recnoValue: Int64?
-    var fieldRecno: String?
-    var fileds: String?
-    var linkFields: Bool?
-    var entity: String?
-    var primitive: Bool?
-    var padPrimitive: Int?
-    var primitiveCondition: String?
-    var lockUp: String?
-    var customOrder: String?
-    var usuario: String?
-    var noAuditTable: Bool?
-    var changePrimitiveController: Bool?
-    var namePrimitiveController: String?
+
 }

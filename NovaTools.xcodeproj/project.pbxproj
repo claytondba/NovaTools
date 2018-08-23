@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F01B5E4212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01B5E3212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift */; };
+		8F01B5E6212D7C8A00C8A63E /* ConsultaPecaPescricaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01B5E5212D7C8A00C8A63E /* ConsultaPecaPescricaoViewController.swift */; };
+		8F01B5E8212DAB9F00C8A63E /* PecasDescricaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01B5E7212DAB9F00C8A63E /* PecasDescricaoTableViewCell.swift */; };
 		8F1FA6042125DDEF009452EC /* PedidosInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FA6032125DDEF009452EC /* PedidosInfoTableViewCell.swift */; };
+		8F27E63A212B249500428E8E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F27E639212B249500428E8E /* Configuration.swift */; };
+		8F27E63C212B32D700428E8E /* LogarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F27E63B212B32D700428E8E /* LogarViewController.swift */; };
+		8F27E63E212B429700428E8E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F27E63D212B429700428E8E /* UserModel.swift */; };
 		8F2F4AD7211CC0900042B4F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F4AD6211CC0900042B4F0 /* AppDelegate.swift */; };
 		8F2F4AD9211CC0900042B4F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F4AD8211CC0900042B4F0 /* ViewController.swift */; };
 		8F2F4ADC211CC0900042B4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F4ADA211CC0900042B4F0 /* Main.storyboard */; };
@@ -26,7 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F01B5E3212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaPecaCodigoViewController.swift; sourceTree = "<group>"; };
+		8F01B5E5212D7C8A00C8A63E /* ConsultaPecaPescricaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaPecaPescricaoViewController.swift; sourceTree = "<group>"; };
+		8F01B5E7212DAB9F00C8A63E /* PecasDescricaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecasDescricaoTableViewCell.swift; sourceTree = "<group>"; };
 		8F1FA6032125DDEF009452EC /* PedidosInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosInfoTableViewCell.swift; sourceTree = "<group>"; };
+		8F27E639212B249500428E8E /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		8F27E63B212B32D700428E8E /* LogarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogarViewController.swift; sourceTree = "<group>"; };
+		8F27E63D212B429700428E8E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		8F2F4AD3211CC0900042B4F0 /* NovaTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2F4AD6211CC0900042B4F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F2F4AD8211CC0900042B4F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +88,13 @@
 		8F2F4AD5211CC0900042B4F0 /* NovaTools */ = {
 			isa = PBXGroup;
 			children = (
+				8F27E639212B249500428E8E /* Configuration.swift */,
 				8F2F4AD6211CC0900042B4F0 /* AppDelegate.swift */,
 				8F2F4AD8211CC0900042B4F0 /* ViewController.swift */,
 				8F2F4ADA211CC0900042B4F0 /* Main.storyboard */,
+				8F01B5E5212D7C8A00C8A63E /* ConsultaPecaPescricaoViewController.swift */,
+				8F01B5E3212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift */,
+				8F27E63B212B32D700428E8E /* LogarViewController.swift */,
 				8F98A77B212736AD00E97D45 /* ComprasTableViewController.swift */,
 				8F8ECD3E2127428F00063BE6 /* ComprasTableViewCell.swift */,
 				8F98A77D2127376400E97D45 /* ComprasModel.swift */,
@@ -93,6 +109,8 @@
 				8F982A5E211E30F500DF9BB2 /* PecasModel.swift */,
 				8F982A60211E324D00DF9BB2 /* PecasTableViewController.swift */,
 				8F81B245212232C6004391CA /* PecasTableViewCell.swift */,
+				8F01B5E7212DAB9F00C8A63E /* PecasDescricaoTableViewCell.swift */,
+				8F27E63D212B429700428E8E /* UserModel.swift */,
 			);
 			path = NovaTools;
 			sourceTree = "<group>";
@@ -170,12 +188,18 @@
 			files = (
 				8F98A77C212736AD00E97D45 /* ComprasTableViewController.swift in Sources */,
 				8F81B24E2125AAD6004391CA /* PedidosModel.swift in Sources */,
+				8F27E63A212B249500428E8E /* Configuration.swift in Sources */,
 				8F81B246212232C6004391CA /* PecasTableViewCell.swift in Sources */,
+				8F27E63C212B32D700428E8E /* LogarViewController.swift in Sources */,
 				8F982A5F211E30F500DF9BB2 /* PecasModel.swift in Sources */,
 				8F2F4AD9211CC0900042B4F0 /* ViewController.swift in Sources */,
 				8F2F4AE9211DCBDF0042B4F0 /* DataManager.swift in Sources */,
+				8F01B5E6212D7C8A00C8A63E /* ConsultaPecaPescricaoViewController.swift in Sources */,
+				8F01B5E4212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift in Sources */,
 				8F8ECD3F2127428F00063BE6 /* ComprasTableViewCell.swift in Sources */,
 				8F982A61211E324D00DF9BB2 /* PecasTableViewController.swift in Sources */,
+				8F01B5E8212DAB9F00C8A63E /* PecasDescricaoTableViewCell.swift in Sources */,
+				8F27E63E212B429700428E8E /* UserModel.swift in Sources */,
 				8F98A77E2127376400E97D45 /* ComprasModel.swift in Sources */,
 				8F1FA6042125DDEF009452EC /* PedidosInfoTableViewCell.swift in Sources */,
 				8F81B24C212597AF004391CA /* PedidosInfoViewController.swift in Sources */,

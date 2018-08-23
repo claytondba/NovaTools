@@ -21,7 +21,7 @@
 	<key>CFBundleSpokenName</key>
 	<string></string>
 	<key>CFBundleVersion</key>
-	<string>7</string>
+	<string>15</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
