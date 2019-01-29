@@ -18,10 +18,8 @@ class PecasDescricaoTableViewCell: UITableViewCell {
     @IBOutlet weak var localLabel: UILabel!
     
     
-    
     func PrepareCell(peca: Peca){
         estoqueLabel.text = "Estoque: (\(Int(peca.estoque_l!)))"
-        
         
         if let paralelo = peca.paralelo {
             micLabel.text = "MIC \(peca.codigo_p!) \(paralelo)"
@@ -42,7 +40,6 @@ class PecasDescricaoTableViewCell: UITableViewCell {
         if let loc = peca.local {
             localLabel.text = loc
         }
-        
         
     }
 

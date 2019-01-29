@@ -22,5 +22,6 @@ struct Peca: Codable {
     var use: String?
     var esptec: String?
     var image: String?
+    var custo_contabil: Double?
 
 }

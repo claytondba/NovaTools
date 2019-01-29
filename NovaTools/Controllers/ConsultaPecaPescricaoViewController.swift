@@ -37,11 +37,10 @@ class ConsultaPecaPescricaoViewController: UIViewController {
                 print("Página: \(self.CurrentPage) Descricao: \(self.DesricaoPeca)")
                 self.tableview.reloadData()
                 self.removeLoadingScreen()
-                //self.removeLoadingScreen()
                 self.LoadingPecas = false
                 
                 if self.ListaPecas.count == 0 {
-                    //self.tableView.backgroundView = self.label
+                    //self.tableview.backgroundView = self.label
                 }
                 else{
                     //                  self.tableView.backgroundView = nil
@@ -64,7 +63,7 @@ class ConsultaPecaPescricaoViewController: UIViewController {
         searchController.searchBar.tintColor = .white
         searchController.searchBar.barTintColor = .white
         
-        navigationItem.searchController = searchController
+        //navigationItem.searchController = searchController
         
         searchController.searchBar.delegate = self
         loadingLabel.textAlignment = .center

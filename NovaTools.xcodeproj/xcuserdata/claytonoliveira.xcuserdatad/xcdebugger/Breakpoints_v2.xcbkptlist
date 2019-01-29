@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.934967"
+            timestampString = "565011813.992306"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
             landmarkName = "loadPedidoPeca(peca:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935106"
+            timestampString = "565011814.007449"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "169"
-            endingLineNumber = "169"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
             landmarkName = "loadPedidoPeca(peca:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935184"
+            timestampString = "565011814.0079091"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "loadCompras(token:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.008244"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "120"
             endingLineNumber = "120"
+            landmarkName = "DataManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.008552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "loadCompras(token:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935234"
+            timestampString = "565011814.0088609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "loadCompras(token:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,43 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.9352829"
+            timestampString = "565011814.009133"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "loadCompras(token:onComplete:onError:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935331"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
-            landmarkName = "loadCompras(token:onComplete:onError:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935375"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
             landmarkName = "loadCompras(token:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,12 +170,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935469"
+            timestampString = "565011814.010666"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -186,12 +186,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935523"
+            timestampString = "565011814.011126"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935588"
+            timestampString = "565011814.011435"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "aprovaPedido(token:pedido:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -250,23 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935637"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "aprovaPedido(token:pedido:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935692"
+            timestampString = "565011814.0117511"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
@@ -278,16 +262,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935739"
+            timestampString = "565011814.012696"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "aprovaPedido(token:pedido:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -298,11 +282,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935787"
+            timestampString = "565011814.012993"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.013273"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "aprovaPedido(token:pedido:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,7 +330,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ComprasTableViewController.swift"
-            timestampString = "556651037.980144"
+            timestampString = "556865982.253225"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
@@ -346,7 +346,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ComprasTableViewController.swift"
-            timestampString = "556651037.9808199"
+            timestampString = "556865982.253315"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "126"
@@ -362,45 +362,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ComprasTableViewController.swift"
-            timestampString = "556651037.981158"
+            timestampString = "556865982.253383"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "116"
             endingLineNumber = "116"
             landmarkName = "tableView(_:editActionsForRowAt:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__ObjC.UITableViewRowAction, Foundation.IndexPath) -&gt; () in NovaTools.ComprasTableViewController.tableView(__ObjC.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__ObjC.UITableViewRowAction&gt;&gt;"
-                  moduleName = "NovaTools"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/claytonoliveira/Documents/iOSDev/NovaTools/NovaTools/ComprasTableViewController.swift"
-                  timestampString = "556658447.39142"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "116"
-                  endingLineNumber = "116"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (__ObjC.UITableViewRowAction, Foundation.IndexPath) -&gt; () in NovaTools.ComprasTableViewController.tableView(__ObjC.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__ObjC.UITableViewRowAction&gt;&gt;"
-                  moduleName = "NovaTools"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/claytonoliveira/Documents/iOSDev/NovaTools/NovaTools/ComprasTableViewController.swift"
-                  timestampString = "556658447.3931071"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -410,12 +378,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935887"
+            timestampString = "565011814.013665"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -426,12 +394,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935941"
+            timestampString = "565011814.0139509"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -442,12 +410,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.935989"
+            timestampString = "565011814.0142601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -458,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/PecasTableViewController.swift"
-            timestampString = "556718479.6891921"
+            timestampString = "556865982.254416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -474,7 +442,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.93608"
+            timestampString = "556865982.254928"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -490,7 +458,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936148"
+            timestampString = "556865982.25501"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
@@ -506,7 +474,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.9361939"
+            timestampString = "556865982.255067"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -522,7 +490,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936311"
+            timestampString = "556865982.25512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -538,7 +506,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936361"
+            timestampString = "556865982.255185"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
@@ -554,7 +522,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936409"
+            timestampString = "556865982.255258"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
@@ -570,7 +538,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936452"
+            timestampString = "556865982.255313"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -586,7 +554,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936494"
+            timestampString = "556865982.255366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -602,7 +570,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936536"
+            timestampString = "556865982.255419"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -618,7 +586,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936603"
+            timestampString = "556865982.255484"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -634,7 +602,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936668"
+            timestampString = "556865982.255547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -650,7 +618,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936715"
+            timestampString = "556865982.255603"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -666,7 +634,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936756"
+            timestampString = "556865982.255668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -682,7 +650,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936801"
+            timestampString = "556865982.25574"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -698,7 +666,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ViewController.swift"
-            timestampString = "556744747.936842"
+            timestampString = "556865982.255797"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -714,11 +682,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.936902"
+            timestampString = "565011814.014703"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
             landmarkName = "loadCompras(token:onComplete:onError:)"
             landmarkType = "7">
             <Locations>
@@ -762,45 +730,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ComprasTableViewController.swift"
-            timestampString = "556651037.981725"
+            timestampString = "556865982.256153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
             landmarkName = "LoadCompras()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NovaTools.ComprasTableViewController.LoadCompras() -&gt; ()"
-                  moduleName = "NovaTools"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/claytonoliveira/Documents/iOSDev/NovaTools/NovaTools/ComprasTableViewController.swift"
-                  timestampString = "556658447.4009531"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;NovaTools.CompraModel&gt;) -&gt; () in NovaTools.ComprasTableViewController.LoadCompras() -&gt; ()"
-                  moduleName = "NovaTools"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/claytonoliveira/Documents/iOSDev/NovaTools/NovaTools/ComprasTableViewController.swift"
-                  timestampString = "556658447.4025789"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "24">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -810,12 +746,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.936986"
+            timestampString = "565011814.015018"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -826,12 +762,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.937049"
+            timestampString = "565011814.0153511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.0156569"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
             endingLineNumber = "59"
-            landmarkName = "getUserToken(user:onComplete:)"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -842,28 +794,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.937099"
+            timestampString = "565011814.0159349"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "getUserToken(user:onComplete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.937143"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -906,12 +842,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.937191"
+            timestampString = "565011814.016196"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -922,12 +858,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.937247"
+            timestampString = "565011814.01649"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -938,12 +874,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.9372981"
+            timestampString = "565011814.016758"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -954,12 +890,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.937367"
+            timestampString = "565011814.017087"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "getUserToken(user:onComplete:)"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "getUserToken(user:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -986,11 +922,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ConsultaPecaPescricaoViewController.swift"
-            timestampString = "556744747.937511"
+            timestampString = "556865982.2585959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "searchBarSearchButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1002,11 +938,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ConsultaPecaPescricaoViewController.swift"
-            timestampString = "556744747.938104"
+            timestampString = "556865982.258682"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
             landmarkName = "searchBarSearchButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1018,11 +954,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.938622"
+            timestampString = "565011814.01741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "294"
-            endingLineNumber = "294"
+            startingLineNumber = "354"
+            endingLineNumber = "354"
             landmarkName = "loadPecasDescricao(descricao:page:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1034,11 +970,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.938804"
+            timestampString = "565011814.0177259"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "302"
-            endingLineNumber = "302"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
             landmarkName = "loadPecasDescricao(descricao:page:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1050,11 +986,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.93889"
+            timestampString = "565011814.017993"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "319"
-            endingLineNumber = "319"
+            startingLineNumber = "379"
+            endingLineNumber = "379"
             landmarkName = "loadPecasDescricao(descricao:page:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1066,59 +1002,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.938982"
+            timestampString = "565011814.018259"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "297"
-            endingLineNumber = "297"
-            landmarkName = "loadPecasDescricao(descricao:page:onComplete:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static NovaTools.DataManager.loadPecasDescricao(descricao: Swift.String, page: Swift.Int, onComplete: (Swift.Array&lt;NovaTools.Peca&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "NovaTools"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/claytonoliveira/Documents/iOSDev/NovaTools/NovaTools/DataManager.swift"
-                  timestampString = "556658447.433566"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "297"
-                  endingLineNumber = "297"
-                  offsetFromSymbolStart = "1140">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static NovaTools.DataManager.loadPecasDescricao(descricao: Swift.String, page: Swift.Int, onComplete: (Swift.Array&lt;NovaTools.Peca&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "NovaTools"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/claytonoliveira/Documents/iOSDev/NovaTools/NovaTools/DataManager.swift"
-                  timestampString = "556658447.43524"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "298"
-                  endingLineNumber = "298"
-                  offsetFromSymbolStart = "52">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.939045"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "312"
-            endingLineNumber = "312"
+            startingLineNumber = "357"
+            endingLineNumber = "357"
             landmarkName = "loadPecasDescricao(descricao:page:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1130,11 +1018,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.939099"
+            timestampString = "565011814.018492"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "306"
-            endingLineNumber = "306"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
             landmarkName = "loadPecasDescricao(descricao:page:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1146,11 +1034,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.939165"
+            timestampString = "565011814.0188349"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "366"
+            endingLineNumber = "366"
+            landmarkName = "loadPecasDescricao(descricao:page:onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.0191261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "aprovaPedido(token:pedido:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1162,7 +1066,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ComprasTableViewController.swift"
-            timestampString = "556651037.982421"
+            timestampString = "556865982.260796"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "136"
@@ -1178,7 +1082,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ComprasTableViewController.swift"
-            timestampString = "556651294.490623"
+            timestampString = "556865982.2608581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "147"
@@ -1194,11 +1098,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/DataManager.swift"
-            timestampString = "556744747.9392591"
+            timestampString = "565011814.019475"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "aprovaPedido(token:pedido:onComplete:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1210,7 +1114,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ConsultaPecaPescricaoViewController.swift"
-            timestampString = "556744747.939311"
+            timestampString = "556865982.2612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -1258,11 +1162,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/ConsultaPecaPescricaoViewController.swift"
-            timestampString = "556744747.939593"
+            timestampString = "556865982.261258"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1274,12 +1178,284 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NovaTools/PecasDetalheViewController.swift"
-            timestampString = "556744747.939882"
+            timestampString = "556865982.261324"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/PecasTableViewController.swift"
+            timestampString = "556865982.261384"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "LoadPecas()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/PecasTableViewController.swift"
+            timestampString = "556865982.261815"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "LoadPecas()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.019841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "loadItensCompras(pedido:tipo:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.020141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "loadItensCompras(pedido:tipo:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.020396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "loadItensCompras(pedido:tipo:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.020661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "loadItensCompras(pedido:tipo:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.020933"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "loadItensCompras(pedido:tipo:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.021202"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "loadItensCompras(pedido:tipo:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.021462"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "loadItensCompras(pedido:tipo:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaTools/DataManager.swift"
+            timestampString = "565011814.021747"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "loadItensCompras(pedido:tipo:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaToolsWatch Extension/DataManager.swift"
+            timestampString = "565011814.022023"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "reiniciaTerminais(token:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaToolsWatch Extension/InterfaceController.swift"
+            timestampString = "559847543.819518"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "ReiniciarTerminais()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NovaToolsWatch_Extension.InterfaceController.ReiniciarTerminais() -&gt; ()"
+                  moduleName = "NovaToolsWatch Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/claytonoliveira/Documents/iOSDev/NovaTools/NovaToolsWatch%20Extension/InterfaceController.swift"
+                  timestampString = "559839122.190936"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in NovaToolsWatch_Extension.InterfaceController.ReiniciarTerminais() -&gt; ()"
+                  moduleName = "NovaToolsWatch Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/claytonoliveira/Documents/iOSDev/NovaTools/NovaToolsWatch%20Extension/InterfaceController.swift"
+                  timestampString = "559839122.1930031"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaToolsWatch Extension/DataManager.swift"
+            timestampString = "565011814.022316"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "reiniciaTerminais(token:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaToolsWatch Extension/DataManager.swift"
+            timestampString = "565011814.022536"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "reiniciaTerminais(token:onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NovaToolsWatch Extension/DataManager.swift"
+            timestampString = "565011814.022781"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "reiniciaTerminais(token:onComplete:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

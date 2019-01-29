@@ -20,14 +20,24 @@ class PecasDetalheViewController: UIViewController {
     @IBOutlet weak var aplicaLabel: UILabel!
     @IBOutlet weak var estoqueLabel: UILabel!
     @IBOutlet weak var acPeca: UIActivityIndicatorView!
+    @IBOutlet weak var btnSemFoto: UIButton!
     
+    @IBOutlet weak var custoLabel: UILabel!
     
     var PecaEdit: Peca = Peca()
     var PecaEditComplete: Peca = Peca()
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! PedidosInfoViewController
-        vc.PecaEdit = self.PecaEdit
+        
+        if segue.identifier == "sgVendas"
+        {
+            let vc = segue.destination as! PedidosInfoViewController
+            vc.PecaEdit = self.PecaEdit
+        }
+        else if segue.identifier == "sgCusto"
+        {
+            
+        }
     }
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(false, animated: true)
@@ -81,11 +91,17 @@ class PecasDetalheViewController: UIViewController {
             aplicaLabel.text = "Sem aplicação cadastrada..."
         }
         
-
-        
+    
         if let estoque = PecaEdit.estoque_l {
             estoqueLabel.text = "\(Int(estoque))"
         }
+        
+        //if let custo = PecaEdit.custo_contabil {
+            //custoLabel.text = "\(Double(custo))"
+        //}
+        //else{
+            //custoLabel.text = "Sem custo."
+        //}
         
         //Recuperando imagem do servidor...
         
@@ -99,9 +115,7 @@ class PecasDetalheViewController: UIViewController {
                 self.ivPeca.image = image
                 self.acPeca.stopAnimating()
                 self.acPeca.isHidden = true
-                
-                
-                
+                                
             }
         }) { (erro) in
             
@@ -109,6 +123,7 @@ class PecasDetalheViewController: UIViewController {
                 if erro {
                     self.acPeca.stopAnimating()
                     self.acPeca.isHidden = true
+                    self.btnSemFoto.isHidden = false
                 }
             }
             

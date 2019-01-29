@@ -42,7 +42,10 @@ class ComprasTableViewController: UITableViewController {
         }
 
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vw = segue.destination as! CompraItensViewController
+        vw.Compra = ListaCompras[tableView.indexPathForSelectedRow!.row]
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -75,34 +78,16 @@ class ComprasTableViewController: UITableViewController {
         // Hides and stops the text and the spinner
         spinner.stopAnimating()
         spinner.isHidden = true
-        loadingLabel.isHidden = true
         
     }
     private func setLoadingScreen() {
         
-        // Sets the view which contains the loading text and the spinner
-        let width: CGFloat = 120
-        let height: CGFloat = 30
-        let x = (tableView.frame.width / 2) - (width / 2)
-        let y = (tableView.frame.height / 2) - (height / 2) - (navigationController?.navigationBar.frame.height)!
-        loadingView.frame = CGRect(x: x, y: y, width: width, height: height)
-        
-        // Sets loading text
-        loadingLabel.textColor = .gray
-        loadingLabel.textAlignment = .center
-        loadingLabel.text = "     Carregando..."
-        loadingLabel.frame = CGRect(x: 0, y: 0, width: 140, height: 30)
-        
         // Sets spinner
-        spinner.activityIndicatorViewStyle = .gray
-        spinner.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+        spinner.activityIndicatorViewStyle = .whiteLarge
+        spinner.color = UIColor(named: "main")
         spinner.startAnimating()
         
-        // Adds text and spinner to the view
-        loadingView.addSubview(spinner)
-        loadingView.addSubview(loadingLabel)
-        
-        tableView.addSubview(loadingView)
+        tableView.backgroundView = spinner
         
     }
 
@@ -129,7 +114,7 @@ class ComprasTableViewController: UITableViewController {
             })
             
         }
-        reprova.backgroundColor = UIColor.red
+        reprova.backgroundColor = UIColor(named: "second")
         
         let aprova = UITableViewRowAction(style: .normal, title: "Aprovar") { action, index in
             let comp = self.ListaCompras[index.row]
@@ -149,7 +134,7 @@ class ComprasTableViewController: UITableViewController {
                 }
             })
         }
-        aprova.backgroundColor = UIColor.blue
+        aprova.backgroundColor = UIColor(named: "main")
         
         return [reprova, aprova]
         

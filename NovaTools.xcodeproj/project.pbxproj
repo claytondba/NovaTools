@@ -20,6 +20,17 @@
 		8F2F4ADE211CC0920042B4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F4ADD211CC0920042B4F0 /* Assets.xcassets */; };
 		8F2F4AE1211CC0920042B4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F4ADF211CC0920042B4F0 /* LaunchScreen.storyboard */; };
 		8F2F4AE9211DCBDF0042B4F0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F4AE8211DCBDF0042B4F0 /* DataManager.swift */; };
+		8F3CD2C1215E6C4E004590D5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3CD2BF215E6C4E004590D5 /* Interface.storyboard */; };
+		8F3CD2C3215E6C4F004590D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3CD2C2215E6C4F004590D5 /* Assets.xcassets */; };
+		8F3CD2CA215E6C50004590D5 /* NovaToolsWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8F3CD2C9215E6C50004590D5 /* NovaToolsWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8F3CD2CF215E6C50004590D5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CD2CE215E6C50004590D5 /* InterfaceController.swift */; };
+		8F3CD2D1215E6C50004590D5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CD2D0215E6C50004590D5 /* ExtensionDelegate.swift */; };
+		8F3CD2D3215E6C50004590D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3CD2D2215E6C50004590D5 /* Assets.xcassets */; };
+		8F3CD2D7215E6C50004590D5 /* NovaToolsWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8F3CD2BD215E6C4E004590D5 /* NovaToolsWatch.app */; };
+		8F3CD2E1215E7475004590D5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CD2E0215E7475004590D5 /* DataManager.swift */; };
+		8F759129215C00CA00F13668 /* ComprasItensModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F759128215C00CA00F13668 /* ComprasItensModel.swift */; };
+		8F75912B215C046100F13668 /* CompraItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75912A215C046100F13668 /* CompraItensViewController.swift */; };
+		8F75912D215C258100F13668 /* ComprasItensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75912C215C258100F13668 /* ComprasItensTableViewCell.swift */; };
 		8F81B246212232C6004391CA /* PecasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81B245212232C6004391CA /* PecasTableViewCell.swift */; };
 		8F81B24821227AD6004391CA /* PecasDetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81B24721227AD6004391CA /* PecasDetalheViewController.swift */; };
 		8F81B24C212597AF004391CA /* PedidosInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F81B24B212597AF004391CA /* PedidosInfoViewController.swift */; };
@@ -29,7 +40,50 @@
 		8F982A61211E324D00DF9BB2 /* PecasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F982A60211E324D00DF9BB2 /* PecasTableViewController.swift */; };
 		8F98A77C212736AD00E97D45 /* ComprasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98A77B212736AD00E97D45 /* ComprasTableViewController.swift */; };
 		8F98A77E2127376400E97D45 /* ComprasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98A77D2127376400E97D45 /* ComprasModel.swift */; };
+		8FEBBF4221AC49D700B8D2D8 /* CustoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEBBF4121AC49D700B8D2D8 /* CustoViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F3CD2CB215E6C50004590D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F2F4ACB211CC0900042B4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F3CD2C8215E6C50004590D5;
+			remoteInfo = "NovaToolsWatch Extension";
+		};
+		8F3CD2D5215E6C50004590D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F2F4ACB211CC0900042B4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F3CD2BC215E6C4E004590D5;
+			remoteInfo = NovaToolsWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F3CD2DD215E6C50004590D5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8F3CD2CA215E6C50004590D5 /* NovaToolsWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3CD2DF215E6C50004590D5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8F3CD2D7215E6C50004590D5 /* NovaToolsWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8F01B5E3212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaPecaCodigoViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +101,19 @@
 		8F2F4AE0211CC0920042B4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F2F4AE2211CC0920042B4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F2F4AE8211DCBDF0042B4F0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8F3CD2BD215E6C4E004590D5 /* NovaToolsWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaToolsWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3CD2C0215E6C4E004590D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8F3CD2C2215E6C4F004590D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F3CD2C4215E6C4F004590D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3CD2C9215E6C50004590D5 /* NovaToolsWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NovaToolsWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3CD2CE215E6C50004590D5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8F3CD2D0215E6C50004590D5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8F3CD2D2215E6C50004590D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F3CD2D4215E6C50004590D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3CD2E0215E7475004590D5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8F759128215C00CA00F13668 /* ComprasItensModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasItensModel.swift; sourceTree = "<group>"; };
+		8F75912A215C046100F13668 /* CompraItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraItensViewController.swift; sourceTree = "<group>"; };
+		8F75912C215C258100F13668 /* ComprasItensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasItensTableViewCell.swift; sourceTree = "<group>"; };
 		8F81B245212232C6004391CA /* PecasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecasTableViewCell.swift; sourceTree = "<group>"; };
 		8F81B24721227AD6004391CA /* PecasDetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecasDetalheViewController.swift; sourceTree = "<group>"; };
 		8F81B24B212597AF004391CA /* PedidosInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosInfoViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +123,7 @@
 		8F982A60211E324D00DF9BB2 /* PecasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecasTableViewController.swift; sourceTree = "<group>"; };
 		8F98A77B212736AD00E97D45 /* ComprasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasTableViewController.swift; sourceTree = "<group>"; };
 		8F98A77D2127376400E97D45 /* ComprasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasModel.swift; sourceTree = "<group>"; };
+		8FEBBF4121AC49D700B8D2D8 /* CustoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +134,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F3CD2C6215E6C50004590D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F097DB721347DBF001A62F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F27E63D212B429700428E8E /* UserModel.swift */,
+				8F98A77D2127376400E97D45 /* ComprasModel.swift */,
+				8F81B24D2125AAD6004391CA /* PedidosModel.swift */,
+				8F982A5E211E30F500DF9BB2 /* PecasModel.swift */,
+				8F759128215C00CA00F13668 /* ComprasItensModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F097DB821347DDF001A62F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F4ADA211CC0900042B4F0 /* Main.storyboard */,
+				8F2F4ADF211CC0920042B4F0 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F097DB921347E26001A62F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F01B5E5212D7C8A00C8A63E /* ConsultaPecaPescricaoViewController.swift */,
+				8F01B5E3212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift */,
+				8F98A77B212736AD00E97D45 /* ComprasTableViewController.swift */,
+				8F8ECD3E2127428F00063BE6 /* ComprasTableViewCell.swift */,
+				8F27E63B212B32D700428E8E /* LogarViewController.swift */,
+				8F1FA6032125DDEF009452EC /* PedidosInfoTableViewCell.swift */,
+				8F81B24B212597AF004391CA /* PedidosInfoViewController.swift */,
+				8F81B24721227AD6004391CA /* PecasDetalheViewController.swift */,
+				8FEBBF4121AC49D700B8D2D8 /* CustoViewController.swift */,
+				8F982A60211E324D00DF9BB2 /* PecasTableViewController.swift */,
+				8F81B245212232C6004391CA /* PecasTableViewCell.swift */,
+				8F01B5E7212DAB9F00C8A63E /* PecasDescricaoTableViewCell.swift */,
+				8F2F4AD8211CC0900042B4F0 /* ViewController.swift */,
+				8F75912A215C046100F13668 /* CompraItensViewController.swift */,
+				8F75912C215C258100F13668 /* ComprasItensTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		8F2F4ACA211CC0900042B4F0 = {
 			isa = PBXGroup;
 			children = (
 				8F2F4AD5211CC0900042B4F0 /* NovaTools */,
+				8F3CD2BE215E6C4E004590D5 /* NovaToolsWatch */,
+				8F3CD2CD215E6C50004590D5 /* NovaToolsWatch Extension */,
 				8F2F4AD4211CC0900042B4F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				8F2F4AD3211CC0900042B4F0 /* NovaTools.app */,
+				8F3CD2BD215E6C4E004590D5 /* NovaToolsWatch.app */,
+				8F3CD2C9215E6C50004590D5 /* NovaToolsWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,31 +210,38 @@
 		8F2F4AD5211CC0900042B4F0 /* NovaTools */ = {
 			isa = PBXGroup;
 			children = (
-				8F27E639212B249500428E8E /* Configuration.swift */,
-				8F2F4AD6211CC0900042B4F0 /* AppDelegate.swift */,
-				8F2F4AD8211CC0900042B4F0 /* ViewController.swift */,
-				8F2F4ADA211CC0900042B4F0 /* Main.storyboard */,
-				8F01B5E5212D7C8A00C8A63E /* ConsultaPecaPescricaoViewController.swift */,
-				8F01B5E3212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift */,
-				8F27E63B212B32D700428E8E /* LogarViewController.swift */,
-				8F98A77B212736AD00E97D45 /* ComprasTableViewController.swift */,
-				8F8ECD3E2127428F00063BE6 /* ComprasTableViewCell.swift */,
-				8F98A77D2127376400E97D45 /* ComprasModel.swift */,
-				8F1FA6032125DDEF009452EC /* PedidosInfoTableViewCell.swift */,
-				8F81B24D2125AAD6004391CA /* PedidosModel.swift */,
-				8F81B24B212597AF004391CA /* PedidosInfoViewController.swift */,
-				8F81B24721227AD6004391CA /* PecasDetalheViewController.swift */,
+				8F097DB921347E26001A62F3 /* Controllers */,
+				8F097DB821347DDF001A62F3 /* Views */,
+				8F097DB721347DBF001A62F3 /* Models */,
 				8F2F4AE8211DCBDF0042B4F0 /* DataManager.swift */,
+				8F2F4AD6211CC0900042B4F0 /* AppDelegate.swift */,
+				8F27E639212B249500428E8E /* Configuration.swift */,
 				8F2F4ADD211CC0920042B4F0 /* Assets.xcassets */,
-				8F2F4ADF211CC0920042B4F0 /* LaunchScreen.storyboard */,
 				8F2F4AE2211CC0920042B4F0 /* Info.plist */,
-				8F982A5E211E30F500DF9BB2 /* PecasModel.swift */,
-				8F982A60211E324D00DF9BB2 /* PecasTableViewController.swift */,
-				8F81B245212232C6004391CA /* PecasTableViewCell.swift */,
-				8F01B5E7212DAB9F00C8A63E /* PecasDescricaoTableViewCell.swift */,
-				8F27E63D212B429700428E8E /* UserModel.swift */,
 			);
 			path = NovaTools;
+			sourceTree = "<group>";
+		};
+		8F3CD2BE215E6C4E004590D5 /* NovaToolsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8F3CD2BF215E6C4E004590D5 /* Interface.storyboard */,
+				8F3CD2C2215E6C4F004590D5 /* Assets.xcassets */,
+				8F3CD2C4215E6C4F004590D5 /* Info.plist */,
+			);
+			path = NovaToolsWatch;
+			sourceTree = "<group>";
+		};
+		8F3CD2CD215E6C50004590D5 /* NovaToolsWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8F3CD2CE215E6C50004590D5 /* InterfaceController.swift */,
+				8F3CD2E0215E7475004590D5 /* DataManager.swift */,
+				8F3CD2D0215E6C50004590D5 /* ExtensionDelegate.swift */,
+				8F3CD2D2215E6C50004590D5 /* Assets.xcassets */,
+				8F3CD2D4215E6C50004590D5 /* Info.plist */,
+			);
+			path = "NovaToolsWatch Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,15 +254,51 @@
 				8F2F4ACF211CC0900042B4F0 /* Sources */,
 				8F2F4AD0211CC0900042B4F0 /* Frameworks */,
 				8F2F4AD1211CC0900042B4F0 /* Resources */,
+				8F3CD2DF215E6C50004590D5 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8F3CD2D6215E6C50004590D5 /* PBXTargetDependency */,
 			);
 			name = NovaTools;
 			productName = NovaTools;
 			productReference = 8F2F4AD3211CC0900042B4F0 /* NovaTools.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8F3CD2BC215E6C4E004590D5 /* NovaToolsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3CD2DE215E6C50004590D5 /* Build configuration list for PBXNativeTarget "NovaToolsWatch" */;
+			buildPhases = (
+				8F3CD2BB215E6C4E004590D5 /* Resources */,
+				8F3CD2DD215E6C50004590D5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F3CD2CC215E6C50004590D5 /* PBXTargetDependency */,
+			);
+			name = NovaToolsWatch;
+			productName = NovaToolsWatch;
+			productReference = 8F3CD2BD215E6C4E004590D5 /* NovaToolsWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8F3CD2C8215E6C50004590D5 /* NovaToolsWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3CD2DC215E6C50004590D5 /* Build configuration list for PBXNativeTarget "NovaToolsWatch Extension" */;
+			buildPhases = (
+				8F3CD2C5215E6C50004590D5 /* Sources */,
+				8F3CD2C6215E6C50004590D5 /* Frameworks */,
+				8F3CD2C7215E6C50004590D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NovaToolsWatch Extension";
+			productName = "NovaToolsWatch Extension";
+			productReference = 8F3CD2C9215E6C50004590D5 /* NovaToolsWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -141,12 +306,18 @@
 		8F2F4ACB211CC0900042B4F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Clayton Oliveira";
 				TargetAttributes = {
 					8F2F4AD2211CC0900042B4F0 = {
 						CreatedOnToolsVersion = 9.4.1;
+					};
+					8F3CD2BC215E6C4E004590D5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8F3CD2C8215E6C50004590D5 = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
@@ -164,6 +335,8 @@
 			projectRoot = "";
 			targets = (
 				8F2F4AD2211CC0900042B4F0 /* NovaTools */,
+				8F3CD2BC215E6C4E004590D5 /* NovaToolsWatch */,
+				8F3CD2C8215E6C50004590D5 /* NovaToolsWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +349,23 @@
 				8F2F4AE1211CC0920042B4F0 /* LaunchScreen.storyboard in Resources */,
 				8F2F4ADE211CC0920042B4F0 /* Assets.xcassets in Resources */,
 				8F2F4ADC211CC0900042B4F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3CD2BB215E6C4E004590D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3CD2C3215E6C4F004590D5 /* Assets.xcassets in Resources */,
+				8F3CD2C1215E6C4E004590D5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3CD2C7215E6C50004590D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3CD2D3215E6C50004590D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,19 +386,46 @@
 				8F2F4AE9211DCBDF0042B4F0 /* DataManager.swift in Sources */,
 				8F01B5E6212D7C8A00C8A63E /* ConsultaPecaPescricaoViewController.swift in Sources */,
 				8F01B5E4212B5A6F00C8A63E /* ConsultaPecaCodigoViewController.swift in Sources */,
+				8F75912B215C046100F13668 /* CompraItensViewController.swift in Sources */,
 				8F8ECD3F2127428F00063BE6 /* ComprasTableViewCell.swift in Sources */,
 				8F982A61211E324D00DF9BB2 /* PecasTableViewController.swift in Sources */,
+				8F75912D215C258100F13668 /* ComprasItensTableViewCell.swift in Sources */,
 				8F01B5E8212DAB9F00C8A63E /* PecasDescricaoTableViewCell.swift in Sources */,
 				8F27E63E212B429700428E8E /* UserModel.swift in Sources */,
 				8F98A77E2127376400E97D45 /* ComprasModel.swift in Sources */,
 				8F1FA6042125DDEF009452EC /* PedidosInfoTableViewCell.swift in Sources */,
 				8F81B24C212597AF004391CA /* PedidosInfoViewController.swift in Sources */,
 				8F81B24821227AD6004391CA /* PecasDetalheViewController.swift in Sources */,
+				8FEBBF4221AC49D700B8D2D8 /* CustoViewController.swift in Sources */,
 				8F2F4AD7211CC0900042B4F0 /* AppDelegate.swift in Sources */,
+				8F759129215C00CA00F13668 /* ComprasItensModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3CD2C5215E6C50004590D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3CD2D1215E6C50004590D5 /* ExtensionDelegate.swift in Sources */,
+				8F3CD2E1215E7475004590D5 /* DataManager.swift in Sources */,
+				8F3CD2CF215E6C50004590D5 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F3CD2CC215E6C50004590D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F3CD2C8215E6C50004590D5 /* NovaToolsWatch Extension */;
+			targetProxy = 8F3CD2CB215E6C50004590D5 /* PBXContainerItemProxy */;
+		};
+		8F3CD2D6215E6C50004590D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F3CD2BC215E6C4E004590D5 /* NovaToolsWatch */;
+			targetProxy = 8F3CD2D5215E6C50004590D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8F2F4ADA211CC0900042B4F0 /* Main.storyboard */ = {
@@ -225,6 +442,14 @@
 				8F2F4AE0211CC0920042B4F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8F3CD2BF215E6C4E004590D5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F3CD2C0215E6C4E004590D5 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,7 +576,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K38QEV7L78;
 				INFOPLIST_FILE = NovaTools/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +595,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K38QEV7L78;
 				INFOPLIST_FILE = NovaTools/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +604,94 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F3CD2D8215E6C50004590D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K38QEV7L78;
+				IBSC_MODULE = NovaToolsWatch_Extension;
+				INFOPLIST_FILE = NovaToolsWatch/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = DevPlus.NovaTools.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		8F3CD2D9215E6C50004590D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K38QEV7L78;
+				IBSC_MODULE = NovaToolsWatch_Extension;
+				INFOPLIST_FILE = NovaToolsWatch/Info.plist;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = DevPlus.NovaTools.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		8F3CD2DA215E6C50004590D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K38QEV7L78;
+				INFOPLIST_FILE = "NovaToolsWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = DevPlus.NovaTools.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		8F3CD2DB215E6C50004590D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K38QEV7L78;
+				INFOPLIST_FILE = "NovaToolsWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = DevPlus.NovaTools.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -399,6 +712,24 @@
 			buildConfigurations = (
 				8F2F4AE6211CC0920042B4F0 /* Debug */,
 				8F2F4AE7211CC0920042B4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F3CD2DC215E6C50004590D5 /* Build configuration list for PBXNativeTarget "NovaToolsWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3CD2DA215E6C50004590D5 /* Debug */,
+				8F3CD2DB215E6C50004590D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F3CD2DE215E6C50004590D5 /* Build configuration list for PBXNativeTarget "NovaToolsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3CD2D8215E6C50004590D5 /* Debug */,
+				8F3CD2D9215E6C50004590D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

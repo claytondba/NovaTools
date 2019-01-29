@@ -71,7 +71,7 @@ class ViewController: UIViewController {
 
     @IBAction func userButton(_ sender: Any) {
         
-        let alert = UIAlertController(title: "Logout de Usuário", message: "Deseja efetuar o logout do usuário: \(Configuration.shared.User)", preferredStyle: UIAlertControllerStyle.actionSheet)
+        let alert = UIAlertController(title: "Logout de Usuário", message: "Deseja efetuar o logout do usuário: \(Configuration.shared.User)", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
             
         }))

@@ -22,13 +22,19 @@ class ComprasTableViewCell: UITableViewCell {
     
     
     func PrepareCell(compra: CompraModel) {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.usesGroupingSeparator = true
+        formatter.currencySymbol = "R$ "
+        formatter.alwaysShowsDecimalSeparator = true
         
         pedidoLabel.text = "Pedido: \(compra.codigo!)"
         dataLabel.text = compra.data!
         fornecedorLabel.text = compra.fantasia!
         condicaoLabel.text = "Condição: \(compra.desc_pgto!)"
         compradorLabel.text = "Comprador: \(compra.comprador!)"
-        valorLabel.text = "Valor: \(compra.valor!)"
+        let compraValor = formatter.string(for: compra.valor!)!
+        valorLabel.text = "\(compraValor)"
         
         if let tp = compra.tipo {
             

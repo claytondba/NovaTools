@@ -27,6 +27,8 @@ class PecasTableViewController: UITableViewController {
         super.viewDidLoad()
         label.text = "Nenhum resultado encontrado!"
         label.textAlignment = .center
+        label.textColor = UIColor(named: "main")
+        
         setLoadingScreen()
         LoadPecas()
 
@@ -36,24 +38,34 @@ class PecasTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-    func LoadPecas(){
-        
-        DataManager.loadPecas(prefix: Prefix) {(pecas) in
+    func LoadPecas() {
+      
+        DataManager.loadPecas(prefix: Prefix, onComplete: {(pecas) in
             self.ListaPecas = pecas
             DispatchQueue.main.async {
                 self.tableView.reloadData()
                 self.removeLoadingScreen()
-
+                
                 if self.ListaPecas.count == 0 {
                     self.tableView.backgroundView = self.label
                 }
-                else{
+                else {
                     self.tableView.backgroundView = nil
                 }
                 
             }
             
-        }
+        },onError: {(erro) in
+            
+            DispatchQueue.main.async {
+                
+                self.removeLoadingScreen()
+                print(erro.rawValue)
+                self.tableView.backgroundView = self.label
+            }
+            
+            
+        })
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! PecasDetalheViewController
@@ -93,31 +105,12 @@ class PecasTableViewController: UITableViewController {
     }
     // Set the activity indicator into the main view
     private func setLoadingScreen() {
-        
-        // Sets the view which contains the loading text and the spinner
-        let width: CGFloat = 120
-        let height: CGFloat = 30
-        let x = (tableView.frame.width / 2) - (width / 2)
-        let y = (tableView.frame.height / 2) - (height / 2) - (navigationController?.navigationBar.frame.height)!
-        loadingView.frame = CGRect(x: x, y: y, width: width, height: height)
-        
-        // Sets loading text
-        loadingLabel.textColor = .gray
-        loadingLabel.textAlignment = .center
-        loadingLabel.text = "     Carregando..."
-        loadingLabel.frame = CGRect(x: 0, y: 0, width: 140, height: 30)
-        
-        // Sets spinner
-        spinner.activityIndicatorViewStyle = .gray
-        spinner.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+    
+        spinner.activityIndicatorViewStyle = .whiteLarge
+        spinner.color = UIColor(named: "main")
         spinner.startAnimating()
-        
-        // Adds text and spinner to the view
-        loadingView.addSubview(spinner)
-        loadingView.addSubview(loadingLabel)
-        
-        tableView.addSubview(loadingView)
-        
+        tableView.backgroundView = spinner
+      
     }
 
     /*

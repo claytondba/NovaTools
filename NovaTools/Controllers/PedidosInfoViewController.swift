@@ -16,9 +16,14 @@ class PedidosInfoViewController: UIViewController {
     
     var PedidosLista: [PedidosModel] = []
     var PecaEdit: Peca?
+    let spinner = UIActivityIndicatorView()
+    var label = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        label.text = "Nenhum pedido encontrado!"
+        label.textAlignment = .center
+        label.textColor = UIColor(named: "main")
         if let paralelo = PecaEdit!.paralelo {
             pecaLabel.text = "MIC \(PecaEdit!.codigo_p!) \(paralelo)"
         }
@@ -26,6 +31,7 @@ class PedidosInfoViewController: UIViewController {
         {
             pecaLabel.text = "MIC \(PecaEdit!.codigo_p!)"
         }
+        setLoadingScreen()
         LoadPedidos()
         // Do any additional setup after loading the view.
     }
@@ -36,11 +42,37 @@ class PedidosInfoViewController: UIViewController {
             self.PedidosLista = pedidos
             DispatchQueue.main.async {
                 self.tableview.reloadData()
+                self.removeLoadingScreen()
+                if self.PedidosLista.count == 0 {
+                    self.tableview.backgroundView = self.label
+                }
+                else {
+                    self.tableview.backgroundView = nil
+                }
             }
         }) { (erro) in
     
+            self.label.text = "Problemas recuperando pedidos deste item!"
+            self.tableview.backgroundView = self.label
             
         }
+    }
+    private func removeLoadingScreen() {
+        
+        // Hides and stops the text and the spinner
+        spinner.stopAnimating()
+        spinner.isHidden = true
+        
+    }
+    private func setLoadingScreen() {
+        
+        // Sets spinner
+        spinner.activityIndicatorViewStyle = .whiteLarge
+        spinner.color = UIColor(named: "main")
+        spinner.startAnimating()
+        
+        tableview.backgroundView = spinner
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
