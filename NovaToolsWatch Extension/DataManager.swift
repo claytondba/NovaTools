@@ -20,7 +20,7 @@ enum ErrorManager: String {
 class DataManager {
     
    
-    private static let basePath = "https://fplusapi20180813114855.azurewebsites.net/api/"
+    private static let basePath = "http://app.devplus.com.br:8081/api/"
     
     private static let configuration: URLSessionConfiguration = {
         let config = URLSessionConfiguration.default
